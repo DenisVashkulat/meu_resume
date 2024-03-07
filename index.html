@@ -4,48 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <!-- Wrapper -->
     
-    <div>
+    <div class="wrapper">
         <!-- main content -->
-        <section>  
+        <section class="main">  
         <!-- <div> -->
 
             <!-- About me -->
 
-            <div>
-                <h2>Front-End Developer</h2>
-                <h1>Denis Vashkulat</h1>  
+            <div class="about">
+                <h2 class="developer">Front-End Developer</h2>
+                <h1 class="name">Denis Vashkulat</h1>  
 
-                <p>I was born in Kyiv.
+                <p class="info">I was born in Kyiv.
                     I am 21 years old. </p>
 
             </div> 
 
 
             <!-- My project -->
-            <div>
-                <h3>Projects</h3> 
-                
-                <ol>
-                    <li>
-                        <a href=" https://denisvashkulat.github.io/meu_resume/" target="_blank">Resume</a>
-                        ........................ [ HTML5 ]
+           
+            <div class="custom-container">
+                <h3 class="custom-title">Projects</h3>
+                <ol class="custom-list">
+                    <li class="custom-item">
+                        <a
+                            class="custom-link"
+                            href=" https://denisvashkulat.github.io/meu_resume/"
+                            target="_blank"
+                            >Resume</a
+                        ><span class="custom-tech"
+                            >........................................................[ HTML, CSS ]</span
+                        >
                     </li>
-                     <li>                 
-                        <a href="https://www.google.com/" target="_blank">https://www.google.com/</a>
-                        .................[ JavaScript ]
+                    <li class="custom-item">
+                        <a
+                            class="custom-link"
+                            href="https://denisvashkulat.github.io/meu_web/"
+                            target="_blank"
+                            >My first site</a
+                        >
+                        <span class="custom-tech"
+                            >................................................[ HTML, CSS ]</span
+                        >
                     </li>
-                    <li>
-                        <a href="https://www.google.com/" target="_blank">https://www.google.com//</a>
-                        .................... [ React.js, Node.js ]
+                    <li class="custom-item">
+                        <a
+                            class="custom-link"
+                            href="https://www.google.com/"
+                            target="_blank"
+                            >Google</a
+                        >
+                        <span class="custom-tech"
+                            >........................................................[ HTML, CSS ]</span
+                        >
                     </li>
                 </ol>
-            </div>  
+            </div>
             <!-- Work experience -->
-            <div>
+            <div class="work">
 
                 <h3>Work Experience</h3>
 
@@ -71,7 +92,7 @@
 
                
             <!-- Education -->
-            <div>
+            <div class="education">
 
                 <h3>Education</h3>
 
@@ -92,11 +113,11 @@
 
 
         <!-- Sidebar -->
-        <aside>
-            <img src="./img/foto.jpg" alt="My foto" width="300px">
+        <aside class="sidebar">
+            <img class="foto" src="./img/foto.jpg" alt="My foto" width="300px">
 
             <!-- Contacts -->
-            <div>
+            <div class="contacts">
                 <h3>Contacts</h3>
 
                 <p> C: <a href="tel:+380630115948">+380630115948</a></p>
@@ -104,7 +125,7 @@
             </div>
 
             <!-- Tech Skils -->
-            <div>
+            <div class="tech">
                 <h3>Tech Skills</h3>
                 <ul>
                     <li>HTML5</li>
@@ -120,7 +141,7 @@
 
             <!-- Soft Skils -->
 
-            <div>
+            <div class="soft">
                 <h3>Soft Skills</h3>
                 <ul>
                     <li>Scrum</li>

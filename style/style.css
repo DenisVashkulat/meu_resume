@@ -1,0 +1,105 @@
+body{
+    background-color: #E5E5E5;
+    width: 1920px;
+    height: 1080px;  
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+.sidebar{
+    background-color:#E0EBFE;
+    width: 300px;
+    height: 1200px; 
+    
+}
+.main{
+    background-color: white;
+    width: 800px;
+    height: 1200px;
+   
+    
+}
+.foto{
+    margin-top: 25px;
+}
+.contacts{
+margin-left: 20px;
+margin-top: 10px;
+}
+.tech{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.soft{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.about{
+margin-left: 30px;
+}
+.project{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.work{
+    margin-left: 30px;
+}
+.education{
+    margin-left: 30px;
+}
+.developer{
+    font-size: 13px;
+    margin: 0;
+    margin-top: 45px;
+}
+.name{
+    font-size: 45px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.info{
+    font-size: 14px;
+    color:#595959;
+    margin: 0;
+}
+.custom-container {
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.custom-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.custom-list {
+    padding-left: 16px;
+}
+.custom-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.custom-link {
+    color: #005fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.custom-tech {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
